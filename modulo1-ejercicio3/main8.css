@@ -1,0 +1,64 @@
+:root {
+  --body-margin: 0;
+  --header-padding: 20px;
+  --main-padding: 20px;
+  --p-width: 50%;
+  --p-fontsize: 16px;
+  --ul-list-style-type: none;
+  --ul-padding: 0;
+  --color-title: grey;
+  --margin-title: 0px;
+  --color-subtitle: grey;
+  --margin-subtittle: 0;
+  --menuli-display: inline;
+  --menua-color: green;
+  --menua-textdecoration: none;
+  --pa-color: green;
+  --header-backgroundcolor: #eaeaea;
+}
+
+body {
+  margin: var(--body-margin);
+}
+
+header {
+  background-color: var(--header-backgroundcolor);
+  padding: var(--header-padding);
+}
+
+main {
+  padding: var(--main-padding);
+}
+
+p {
+  width: var(--p-width);
+  font-size: var(--p-fontsize);
+}
+
+ul {
+  list-style-type: var(--ul-list-style-type);
+  padding: var(--ul-padding);
+}
+
+.title {
+  color: var(--color-title);
+  margin: var(--margin-title);
+}
+
+.subtitle {
+  color: var(--color-subtitle);
+  margin: var(--margin-subtittle);
+}
+
+.menu li {
+  display: var(--menuli-display);
+}
+
+.menu a {
+  color: var(--menua-color);
+  text-decoration: var(--menua-textdecoration);
+}
+
+p a {
+  color: var(--pa-color);
+}
