@@ -1,37 +1,38 @@
 body {
-    font-family: Tahoma;
-    font-size: 18px;
-    color: rebeccapurple;
-    background-color: mediumpurple;
-    line-height: 1,5px;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1, 5px;
 }
 h1 {
-    font-family: Tahoma;
-    font-size: 18px;
-    color: rebeccapurple;
-    background-color: mediumpurple;
-    line-height: 1,5px;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1, 5px;
+  font-weight: normal;
 }
 
 header {
-    font-family: Tahoma;
-    font-size: 18px;
-    color: rebeccapurple;
-    background-color: mediumpurple;
-    line-height: 1,5px;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1, 5px;
 }
 
 p {
-    font-family: Tahoma;
-    font-size: 18px;
-    color: rebeccapurple;
-    background-color: mediumpurple;
-    line-height: 1,5px;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1, 5px;
 }
 small {
-    font-family: Tahoma;
-    font-size: 18px;
-    color: rebeccapurple;
-    background-color: mediumpurple;
-    line-height: 1,5px;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: rebeccapurple;
+  background-color: mediumpurple;
+  line-height: 1, 5px;
 }
