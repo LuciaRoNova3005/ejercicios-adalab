@@ -1,0 +1,13 @@
+.navegador {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.page {
+  text-align: aling-top;
+  align-items: center;
+}
