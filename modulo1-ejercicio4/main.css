@@ -1,0 +1,27 @@
+.contenedor {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.elemento1 {
+  background-color: brown;
+  border: 5px black solid;
+}
+.elemento2 {
+  background-color: brown;
+}
+.elemento3 {
+  background-color: brown;
+}
+.elemento4 {
+  background-color: brown;
+}
+.elemento5 {
+  background-color: brown;
+}
+
+.elemento6 {
+  box-sizing: border-box;
+  background-color: brown;
+}
