@@ -1,0 +1,5 @@
+.lista {
+  box-sizing: content-box;
+  display: inline;
+  margin: 12px;
+}
