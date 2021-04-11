@@ -1,0 +1,34 @@
+.divpadre {
+  box-sizing: content-box;
+  display: flex;
+}
+.div1 {
+  box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+  padding: 30px;
+  background-color: blue;
+  position: relative;
+  margin-left: 100px;
+  top: 50 px;
+}
+.div2 {
+  box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+  padding: 30px;
+  background-color: crimson;
+  position: relative;
+  right: 150px;
+  bottom: 320px;
+}
+.div3 {
+  box-sizing: content-box;
+  height: 300px;
+  width: 300px;
+  margin: 40px;
+  padding: 30px;
+  background-color: darkgreen;
+}
