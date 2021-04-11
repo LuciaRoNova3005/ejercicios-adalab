@@ -1,0 +1,8 @@
+.enlacetiqueta {
+  box-sizing: border-box;
+  background-color: rgb(167, 211, 127);
+}
+.etiqueta {
+  background-color: red;
+  position: absolute;
+}
