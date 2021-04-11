@@ -1,9 +1,13 @@
+.divcontenedor {
+  box-sizing: border-box;
+}
+
 .div1 {
   height: 500px;
   width: 500px;
   background-color: yellow;
   position: absolute;
-  box-sizing: border-box;
+  box-sizing: content-box;
   padding: 40px;
   border: 2px;
 }
@@ -12,7 +16,7 @@
   width: 300px;
   background-color: green;
   position: absolute;
-  box-sizing: border-box;
+  box-sizing: content-box;
   padding: 75px;
 }
 .div3 {
@@ -20,6 +24,6 @@
   width: 150px;
   background-color: blue;
   position: absolute;
-  box-sizing: border-box;
+  box-sizing: content-box;
   border: 20px;
 }
