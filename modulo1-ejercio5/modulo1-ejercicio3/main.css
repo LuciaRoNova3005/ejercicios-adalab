@@ -1,0 +1,9 @@
+.cabecera {
+  box-sizing: border-box;
+  background-color: purple;
+  position: fixed;
+}
+.section {
+  box-sizing: border-box;
+  width: 30vh;
+}
