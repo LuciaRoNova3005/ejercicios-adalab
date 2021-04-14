@@ -1,0 +1,9 @@
+.body {
+  box-sizing: border-box;
+  border: 8px;
+  align-items: center;
+}
+.contenido {
+  margin-top: 106px;
+  text-align: justify;
+}

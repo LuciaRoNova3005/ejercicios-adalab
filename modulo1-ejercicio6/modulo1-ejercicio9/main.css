@@ -1,0 +1,35 @@
+.main {
+  box-sizing: border-box;
+  background-color: gray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  background-color: green;
+}
+.heading {
+  background-color: yellow;
+}
+.info {
+  background-color: violet;
+}
+
+@media all and (min-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+  }
+
+  .container2 {
+  }
+}
+@media all and (min-width: 1000px) {
+  .info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

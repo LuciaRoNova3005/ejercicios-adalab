@@ -1,0 +1,38 @@
+.main {
+  height: 100vh;
+  background-color: white;
+  color: #cc212a;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  border-top: #cc212a 2px solid;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+}
+.footer-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle {
+  background-color: #cc212a;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transform: translate(0, -50%);
+}
+.copy {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
