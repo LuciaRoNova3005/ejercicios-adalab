@@ -36,3 +36,11 @@
   font-size: 18px;
   margin-bottom: 30px;
 }
+@media all and (min-width: 760px) {
+  .footer-element {
+    padding: 70px 80px 0 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
