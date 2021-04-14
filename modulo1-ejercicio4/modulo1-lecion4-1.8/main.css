@@ -1,0 +1,55 @@
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.cabecera {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 100px 0 100px;
+}
+.links {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.datos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: lightgrey;
+  padding: 50px 0 50px;
+  margin: auto;
+  max-width: 600px;
+}
+.texto {
+  padding-top: 30px;
+  margin: auto;
+  max-width: 600px;
+  line-height: 1.5;
+}
+.footer {
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  height: 80px;
+  max-width: 600px;
+  margin: auto;
+  padding: 15px;
+}
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
