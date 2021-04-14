@@ -1,0 +1,36 @@
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  --fontsize-title-big: 42px;
+  --fontsize-title-medium: 36px;
+  --fontsize-title-small: 24px;
+  --fontsize-small: 12px;
+
+  --padding-horiz-header: 10px;
+  --padding-horiz-content: 20px;
+
+  --background-blue: #529cf1;
+  --background-green: #26b758;
+  --background-black: #000000;
+  --text-black: #000000;
+  --text-white: #ffffff;
+}
+.cabecera {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contenedor {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.logo {
+  box-sizing: border-box;
+  padding: 10px;
+}
