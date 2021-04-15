@@ -1,3 +1,7 @@
 :root {
   font-family: "Rubik", sans-serif;
 }
+.header {
+  position: fixed;
+  top: 0px;
+}
