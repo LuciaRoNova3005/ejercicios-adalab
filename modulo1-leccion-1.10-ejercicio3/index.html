@@ -10,15 +10,99 @@
     <h1>Create an account</h1>
     <p>It´s free and always will be.</p>
     <form action="/signup" method="post">
-      <input placeholder="First name" type="text" name="firstName" />
-      <input placeholder="Surname" type="text" name="lastName" />
-      <input placeholder="Email or mobile number" name="EmailorMobile" />
       <input
-        placeholder="Re-enter email or mobile number"
+        placeholder="First name"
+        type="text"
+        id="firstName"
+        name="firstName"
+      />
+      <input placeholder="Surname" type="text" id="Surname" name="lastName" />
+      <input
+        placeholder="Email or mobile number"
+        type="text"
+        id="EmailorMobile"
         name="EmailorMobile"
       />
-      <input placeholder="New password" name="New Password" />
-      <label></label>
+      <input
+        placeholder="Re-enter email or mobile number"
+        type="text"
+        id="Emailormibileconfirm"
+        name="EmailorMobile"
+      />
+      <input
+        placeholder="New password"
+        type="text"
+        id="Password"
+        name="New Password"
+      />
+      <div>
+        <label for="Birthday">Birthday</label>
+        <select id="Birthday" name="Birthday">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+        </select>
+      </div>
+      <div>
+        <label for="month">Month</label>
+        <select id="month" name="month">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+      <div>
+        <label for="month">Year</label>
+        <select id="month" name="month">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <p>Why I do need to provide my date of birthday</p>
+        </select>
+      </div>
+      <div>
+        <label for="genero">
+          <input id="genero1" type="radio" value="female" name="genero" />
+          Female
+        </label>
+      </div>
+      <div>
+        <label for="genero2">
+          <input id="paymentmethod2" type="radio" value="male" name="genero" />
+          Male
+        </label>
+      </div>
+      <input type="hidden" id="navegador" name="navegador" value="chrome" />
+      <label for="numerico">Campo numerico</label>
+      <input type="number" id="numerico" min="150" max="250" />
+      <label for="description">Descripción</label>
+      <textarea
+        placeholder="Escribe una descripción"
+        id="description"
+        name="description"
+        rows="30"
+        cols="30"
+      ></textarea>
+      <div>
+        <label for="desactive">Aceptar los términos y condiciones</label>
+
+        <input
+          type="text"
+          id="desactive"
+          name="desactive"
+          value="Activo"
+          disabled
+        />
+      </div>
+      <input typ="reste" value="Restaurar valores por defecto" />
     </form>
   </body>
 </html>
