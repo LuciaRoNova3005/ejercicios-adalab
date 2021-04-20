@@ -12,11 +12,15 @@
   background-color: red;
   grid-column: span 12;
 }
-.item-2 {
+.item-menu {
   background-color: blue;
-  grid-column: span 12;
+  grid-column: span 4;
 }
-.item-3 {
+.item-content {
+  background-color: rgb(255, 0, 119);
+  grid-column: span 8;
+}
+.item-4 {
   background-color: red;
   grid-column: span 12;
 }
