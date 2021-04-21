@@ -1,0 +1,29 @@
+:root {
+  margin: 50px;
+}
+.title1 {
+  color: lightseagreen;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+.title2 {
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.form-input {
+  padding: 5px;
+  margin: 5px;
+}
+.submit {
+  background-color: lightseagreen;
+}
+.mailaddres:hover {
+  background-color: red;
+}
