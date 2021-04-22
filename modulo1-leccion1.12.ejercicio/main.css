@@ -25,7 +25,14 @@
   background-color: lightseagreen;
 }
 
-.text-label:hover {
+/*.text-label:hover {
+  color: grey;
+  animation-name: hover;
+  animation-duration: 1s;
+}
+*/
+
+.mailaddress:hove .text-label {
   color: grey;
   animation-name: hover;
   animation-duration: 1s;
@@ -34,10 +41,9 @@
 @keyframes hover {
   from {
     color: black;
-    translate: ;
   }
   to {
     color: grey;
-    translate: 50px;
+    transform: translate(10px, 40px);
   }
 }
