@@ -1,0 +1,11 @@
+.hero {
+  background-image: url(../images/slider-home.jpg);
+  background-size: cover;
+  display: flex;
+  height: 50vh;
+}
+.title {
+  color: white;
+  margin: auto;
+  text-transform: capitalize;
+}
