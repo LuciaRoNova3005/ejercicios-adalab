@@ -24,6 +24,20 @@
 .submit {
   background-color: lightseagreen;
 }
-.mailaddres:hover {
-  background-color: red;
+
+.text-label:hover {
+  color: grey;
+  animation-name: hover;
+  animation-duration: 1s;
+}
+
+@keyframes hover {
+  from {
+    color: black;
+    translate: ;
+  }
+  to {
+    color: grey;
+    translate: 50px;
+  }
 }
