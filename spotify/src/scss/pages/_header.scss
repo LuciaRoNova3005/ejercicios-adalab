@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-black);
+  padding: 20px var(--padding-horiz-header);
+}
+
+.header .logo {
+  height: 35px;
+}
+
+.header .menu-icon {
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/menu-icon.png");
+  background-size: contain;
+}
