@@ -1,3 +1,3 @@
-const mainElement = document.querySelector('.main');
+const main = document.querySelector('.main');
 const content = '<h1>Lorem impsun </h1><img src="http://via.placeholder.com/350x150" alt="imagen" /> <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus cupiditate beatae natus asperiores repudiandae nostrum minima eaque ex neque libero, unde temporibus odit quaerat dolorem deleniti reiciendis cumque error quidem?</P>';
-mainElement.innerHTML = content;
+main.innerHTML = content;
