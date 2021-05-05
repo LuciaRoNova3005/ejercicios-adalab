@@ -43,10 +43,11 @@ console.log (number)
  console.log (clase)
 
  //Ejercicio 7//
- const ejercio7 = parseInt(c)
-
-
-
+function convertirNumero (a){
+    return parseInt(a)
+}
+const numero = convertirNumero (clase) + par (clase);
+console.log (numero)
  //Ejercicio 8//
  
  
