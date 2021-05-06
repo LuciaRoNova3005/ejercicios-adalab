@@ -22,11 +22,11 @@ console.log (price)
  function par(a){
     if ( a % 2 == 0 )
         {
-            return "True";
+            return " True";
         }
         else
         {
-            return "False";
+            return " False";
         }
 }
 
@@ -35,19 +35,57 @@ console.log (number)
 
  //Ejercio 5// 
  function getEl (a){
- return document.querySelector(a).innerHTML;
+ return document.querySelector(a);
  
 }
 
  const clase = getEl('.btn');
  console.log (clase)
+ 
+ //Ejercicio 6//
+
+function  error (a) {
+    if(a === null )
+    {
+        return "No existe ningún elemento con clase, id o tag llamado"
+    } 
+    else{
+        return "El elemento esta correcto"
+    }
+}
+console.log (error (clase))
+
+    
+ 
+
 
  //Ejercicio 7//
 function convertirNumero (a){
     return parseInt(a)
 }
-const numero = convertirNumero (clase) + par (clase);
+const numero = convertirNumero (clase ) + par (clase);
 console.log (numero)
+
  //Ejercicio 8//
+// modificamos una variable de ámbito global
+let secretLetter = 'y';
+function mySecretLetter() {
+  secretLetter = 'x';
+  return secretLetter;
+}
+console.log(mySecretLetter()); // devuelve "x"
+console.log(secretLetter); // devuelve "x"
  
+
+
+ //Ejercicio Dayana//
+ const resultado = document.querySelector ("js-text");
+ function iva (precio){
+ const iva2 = precio * 0.21;
+ const totalIva = price + iva2;
+
+ resultado.innerHTML = `el precio es: ${precio} el iva es: ${iva2} el total a pagar es ${totaliva}`;
+}
+
+
  
