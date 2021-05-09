@@ -10,10 +10,10 @@ button.addEventListener('click', showAlert);
 
 //Ejercicio 2//
 const button2 = document.querySelector (".js-input");
+const nombre = button2.value;
 function Form (button2){
-  console.log (button2.value = "Mi primer click, ¡ole yo y la mujer que me parió!")
+ return "Hola" + $nombre;
 }
-
 button2.addEventListener('click', Form);
 
 //Ejercicio 3"//
