@@ -36,29 +36,44 @@ adalaber3.showbio= function() {
 console.log(adalaber3.showbio());
 
 
-//Ejercicio 6//
-const bagPears = {};
-    bagPears.max = "8";
-    bagPears.min = "1";
-    bagPears.actual = "1";
-    bagPears.sacar = "3";
-    bagPears.sum = "3";
-    bagPears.initial = function (){
-        return this.actual;
-    }
-    bagPears.out = function (){
-        const out = this.actual -this.sacar;
-        return out;
-    }
-    bargPears.add = function (){
-        const add = this.actual + this.sum;
-        return add;
-    }
-    bagPears.submit = function (){
-     return this.initial;
-    }
+// //Ejercicio 6//
+// const bagPears = {};
+//     bagPears.max = "8";
+//     bagPears.min = "1";
+//     bagPears.actual = "1";
+//     bagPears.sacar = "3";
+//     bagPears.sum = "3";
+//     bagPears.initial = function (){
+//         return this.actual;
+//     }
+//     bagPears.out = function (){
+//         const out = this.actual -this.sacar;
+//         return out;
+//     }
+//     //bargPears.add = function (){
+//         const add = this.actual + this.sum;
+//         return add;//
+//     }
+//     bagPears.submit = function (){
+//      return this.initial;
+//     }
 
-    console.log (bagPears.out())
+//     console.log (bagPears.out())
+
+
+    //Ejercicio 7//
+    const job = "developer";
+
+    const objeto = {};
+   objeto.firstName = "maria";
+   objeto.lastName= "la portuguesa";
+    objeto.job= job;
+    objeto.age= 35;
+
+   
+objeto.firstName = "LAura"
+objeto.age += 1;
+    console.log (objeto.age);
 
 
 
