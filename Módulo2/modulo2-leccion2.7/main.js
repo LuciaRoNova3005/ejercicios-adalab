@@ -47,6 +47,27 @@ console.log ( media );
 
 
 
+//Ejercio 8//
+const btnElement = document.querySelectorAll ('button')
+console.log(btnElement);
+const body = document.querySelector('body')
+function handleclickbtn(ev){
+    body.classList.toggle('red');
+}
+for( let i = 0; i < btnElement.length; i++){ 
+    btnElement[i].addEventListener('click', handleclickbtn);
+}
+//OTRA FORMA con EVENT//
+const btnElement = document.querySelectorAll ('button')
+console.log(btnElement);
+const body = document.querySelector('body')
+function handleclickbtn(ev){
+    ev.target.classList.toggle('red');
+}
+for( let i = 0; i < btnElement.length; i++){ 
+    btnElement[i].addEventListener('click', handleclickbtn);
+}//
+
 
 
 
