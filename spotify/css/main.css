@@ -35,3 +35,34 @@
   background-image: url("../img/menu-icon.png");
   background-size: contain;
 }
+.trial .title {
+  margin-top: calc(var(--fontsize-title-big) * 2);
+  font-size: var(--fontsize-title-big);
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.trial .subtitle {
+  margin-top: var(--fontsize-title-medium);
+  font-size: var(--fontsize-title-smail);
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.trial .link {
+  display: block;
+  height: 40px;
+  line-height: 40px; /* Truco/Quirk para centrar el texto verticalmente */
+  margin: 20px auto;
+  background-color: var(--background-green);
+  border-radius: 15px;
+  color: var(--text-white);
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.trial .disclaimer {
+  font-size: var(--fontsize-small);
+}
