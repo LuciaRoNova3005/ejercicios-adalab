@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   background-color: $background-black;
-  padding: 20px var $padding-horiz-header;
-}
-.header__logo {
-  height: 35px;
+  padding: 20px $padding-horiz-header;
+  &__logo {
+    height: 35px;
+  }
 }
