@@ -1,17 +1,40 @@
+/*
+  Hoja de reset basada en:
+    <https://beta.adalab.es/resources/stylesheets/reset.css>
+    <https://meyerweb.com/eric/tools/css/reset/>
+
+  NOTA: Ningún árbol ha sido talado en la elaboración
+        de esta hoja de estilos 🌳
+*/
 :root {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 16px;
-  --fontsize-title-big: 42px;
-  --fontsize-title-medium: 36px;
-  --fontsize-title-small: 24px;
-  --fontsize-small: 12px;
+  font-size: 24px;
+}
 
-  --padding-horiz-header: 10px;
-  --padding-horiz-content: 20px;
+* {
+  box-sizing: border-box;
+}
 
-  --background-blue: #529cf1;
-  --background-green: #26b758;
-  --background-black: #000000;
-  --text-black: #000000;
-  --text-white: #ffffff;
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
