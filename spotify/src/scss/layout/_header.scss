@@ -1,5 +1,12 @@
-.page__header {
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  background-color: $background-black;
+  padding: 20px var $padding-horiz-header;
+}
+.header__logo {
+  height: 35px;
 }
