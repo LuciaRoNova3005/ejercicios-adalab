@@ -30,14 +30,20 @@ function get10Numbersreverse() {
 }
 get10Numbersreverse();
 
-//Ejercio 3//
+//Ejercicio 3//
 
 const lostNumbers = [4, 8, 15, 16, 23, 42];
-let ParNumber = [];
+let parNumber = [];
+let multiples3Numbers = [];
+let number = [];
 
-for (let i = 0; i < lostNumbers.length; i++) {
-  if (i % 2 == 0) {
-    let ParNumber = [i];
-    console.log(ParNumber);
+function bestLostNomber() {
+  for (let i = 0; i < lostNumbers.length; i++) {
+    if (lostNumbers[i] % 2 === 0) {
+      parNumber.push(lostNumbers[i]);
+    } else if (lostNumbers[i] % 3 === 0) {
+      multiples3Numbers.push(lostNumbers[i]);
+    }
   }
+  console.log(parNumber);
 }
