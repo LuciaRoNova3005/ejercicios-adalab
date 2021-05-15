@@ -16,7 +16,7 @@ button.addEventListener("click", enterNumber);
 const buttonImg = document.querySelector(".js-imgbutton");
 
 function getChiguagua() {
-  fetch("https://dog.ceo/api/breeds/image/random")
+  fetch("https://dog.ceo/api/breed/chihuahua/images/random")
     .then((response) => response.json())
     .then((data) => {
       const img = document.querySelector("img");
@@ -24,4 +24,5 @@ function getChiguagua() {
       img.alt = data.success;
     });
 }
+
 buttonImg.addEventListener("click", getChiguagua);
