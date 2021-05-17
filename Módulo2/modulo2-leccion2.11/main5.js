@@ -13,5 +13,15 @@ function handelform(ev) {
   }
   localStorage.setItem("theme", inputChanged.id);
 }
+theme();
 
+function theme() {
+  if (localStorage.getItem("theme") === "dark") {
+    text.classList.add("dark");
+    text.classList.remove("light");
+  } else if (localStorage.getItem("theme") === "light") {
+    text.classList.remove("dark");
+    text.classList.add("light");
+  }
+}
 form.addEventListener("click", handelform);
