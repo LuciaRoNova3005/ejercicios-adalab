@@ -11,6 +11,7 @@ function handelform(ev) {
     text.classList.add("dark");
     text.classList.remove("light");
   }
+  localStorage.setItem("theme", inputChanged.id);
 }
 
 form.addEventListener("click", handelform);
