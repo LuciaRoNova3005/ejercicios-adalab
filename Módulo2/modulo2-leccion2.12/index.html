@@ -9,6 +9,17 @@
   </head>
   <body>
     <ul class="js-list"></ul>
+
+    <form action="GET">
+      <label for="city">Elige una ciudad</label>
+      <select name="city" id="city" class="js-city">
+        <option value="select" disabled selected>Selecciona una ciudad</option>
+        <option value="Madrid" id="Madrid">Madrid</option>
+        <option value="Paris" id="Paris">París</option>
+      </select>
+    </form>
+    <div class="js-container"></div>
+
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
