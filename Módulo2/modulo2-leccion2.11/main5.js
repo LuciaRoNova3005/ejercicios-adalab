@@ -11,7 +11,7 @@ function handelform(ev) {
     text.classList.add("dark");
     text.classList.remove("light");
   }
-  localStorage.setItem("theme", inputChanged.id);
+  localStorage.setItem("theme", JSON.stringify(inputChanged.id));
 }
 theme();
 
