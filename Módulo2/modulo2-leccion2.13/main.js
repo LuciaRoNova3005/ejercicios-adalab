@@ -28,3 +28,9 @@ console.log(usersWelcolme);
 //Ejercicio 4//
 const premium = users.filter((users) => users.isPremium === true);
 console.log(premium);
+//Ejercicio 5//
+
+const pins = [2389, 2384, 2837, 5232, 8998];
+
+const enter = pins.filter((pins) => pins % 2 === 0);
+console.log(enter);
