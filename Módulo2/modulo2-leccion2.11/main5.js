@@ -11,17 +11,16 @@ function handelform(ev) {
     text.classList.add("dark");
     text.classList.remove("light");
   }
-  localStorage.setItem("theme", JSON.stringify(inputChanged.id));
+  localStorage.setItem("them", inputChanged.id);
 }
-theme();
 
-function theme() {
-  if (localStorage.getItem("theme") === "dark") {
-    text.classList.add("dark");
-    text.classList.remove("light");
-  } else if (localStorage.getItem("theme") === "light") {
-    text.classList.remove("dark");
-    text.classList.add("light");
-  }
-}
 form.addEventListener("click", handelform);
+
+let savedTheme = localStorage.getItem("them");
+if (savedTheme === "light") {
+  text.classList.add("light");
+  text.classList.remove("dark");
+} else {
+  text.classList.add("dark");
+  text.classList.remove("light");
+}
