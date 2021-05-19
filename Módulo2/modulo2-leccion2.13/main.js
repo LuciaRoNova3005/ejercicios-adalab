@@ -51,10 +51,19 @@ const times = [56, 9, 45, 28, 35];
 const media = times.reduce((acc, total) => acc + total) / times.length;
 console.log(media);
 //Ejercicio 8//
-const runners = [
-  { name: "Gregory Goyle", time: 56, student: true },
-  { name: "Nymphadora Tonks", time: 9, student: false },
-  { name: "Luna Lovegood", time: 45, student: true },
-  { name: "Cedric Diggory", time: 28, student: true },
-  { name: "Cho Chang", time: 35, student: true },
+
+//Ejericio 10//
+const users2 = [
+  { name: "María", isPremium: false, pin: 2389 },
+  { name: "Lucía", isPremium: true, pin: 2384 },
+  { name: "Susana", isPremium: true, pin: 2837 },
+  { name: "Rocío", isPremium: false, pin: 5232 },
+  { name: "Inmaculada", isPremium: false, pin: 8998 },
 ];
+const userPin = users2.find((users2) => users2.pin === 5232);
+console.log(userPin);
+
+const userIndex = users2.findIndex((users2) => users2.pin === 5232);
+console.log(userIndex);
+users.splice(3, 1);
+console.log(users);
