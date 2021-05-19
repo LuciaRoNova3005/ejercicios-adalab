@@ -24,3 +24,7 @@ const usersWelcolme = users.map((user) => {
 });
 
 console.log(usersWelcolme);
+
+//Ejercicio 4//
+const premium = users.filter((users) => users.isPremium === true);
+console.log(premium);
