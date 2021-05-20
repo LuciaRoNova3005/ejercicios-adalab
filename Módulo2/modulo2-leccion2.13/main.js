@@ -48,9 +48,35 @@ console.log(numberPin);
 //Ejercicio 7//
 
 const times = [56, 9, 45, 28, 35];
-const media = times.reduce((acc, total) => acc + total) / times.length;
+const media = times.reduce((total, number) => total + number, 0) / times.length;
 console.log(media);
-//Ejercicio 8//
+//Ejercicio 8 Iván//
+
+const runners = [
+  { name: "Gregory Goyle", time: 56 },
+  { name: "Nymphadora Tonks", time: 9 },
+  { name: "Luna Lovegood", time: 45 },
+  { name: "Cedric Diggory", time: 8 },
+  { name: "Cho Chang", time: 35 },
+];
+let record = runners[0];
+for (const runner of runners) {
+  /*
+  if (runner.time < record.time) {
+    record = runner;
+  }
+  */
+  record = runner.time < record.time ? runner : record;
+}
+const winner = runners.reduce(
+  (record, runner) => (runner.time < record.time ? runner : record),
+  runners[0]
+);
+//   if (acc.time < runners.time) {
+//     return winner;
+//     console.log(winner);
+//   }
+// });
 
 //Ejericio 10//
 const users2 = [
