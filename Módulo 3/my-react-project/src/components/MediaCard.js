@@ -1,29 +1,47 @@
-import "../styles/App.css";
 import React from "react";
+import MediaList from "./MediaList";
+import Profile from "../Gandalf_sonriendo.jpg";
 class MediaCard extends React.Component {
   render() {
     return (
       <div className="page">
-        <section className="card">
-          <div className="card-header">
-            <img
-              src="{this.props.image}"
-              className="card-image"
-              alt="Profile"
+        <ul>
+          <li>
+            <MediaList
+              name="Mithrandir, Incánus, Tharkûn"
+              date="Year 3018 - Third Age"
+              img={Profile}
+              text="All that is gold does not glitter, not all those who wander are
+            lost; the old that is strong does not wither, deep roots are not
+            reached by the frost. From the ashes a fire shall be woken, a light
+            from the shadows shall spring; renewed shall be blade that was
+            broken, the crownless again shall be king."
+              fav="fas fa-heart fa-lg class-likes-icon"
             />
-            <div className="card-dateName">
-              <h2 className="card-name">{this.props.name}</h2>
-              <small className="card-date"> {this.props.date}</small>
-            </div>
-          </div>
-          <p className="card-paragraph">{this.props.text}"</p>
-          <div className="card-likes">
-            <small className="card-likesNumber">
-              Elessar and other people likes this
-            </small>
-            <i className={this.props.fav}></i>
-          </div>
-        </section>
+          </li>
+          <li>
+            <MediaList
+              name="LU"
+              date="Year 3018"
+              img={Profile}
+              text="Allg."
+              fav="fas fa-heart fa-lg class-likes-icon"
+            />
+          </li>
+          <li>
+            <MediaList
+              name="Mithrandir, Incánus, Tharkûn"
+              date="Year 3018 - Third Age"
+              img={Profile}
+              text="All that is gold does not glitter, not all those who wander are
+            lost; the old that is strong does not wither, deep roots are not
+            reached by the frost. From the ashes a fire shall be woken, a light
+            from the shadows shall spring; renewed shall be blade that was
+            broken, the crownless again shall be king."
+              fav="fas fa-heart fa-lg class-likes-icon"
+            />
+          </li>
+        </ul>
       </div>
     );
   }
