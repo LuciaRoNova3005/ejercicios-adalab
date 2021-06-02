@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.text {
+  display: flex;
+  align-items: center;
+}
+.textArea {
+  margin: auto;
+}
+.red {
+  background-color: red;
+}
