@@ -1,16 +1,17 @@
 import "../stylesheets/App.css";
 import React from "react";
-import HalfPage from "./HalfPage";
+import PropTypes from "prop-types";
 
 //const StudenPromoa = students.filter((filter) => ();
 
 class App extends React.Component {
   render() {
-    const students = [
+    let students = [
       {
         promo: "A",
         name: "Sofía",
         age: 20,
+        description: "Hola soy estudiante",
       },
       {
         promo: "B",
@@ -33,10 +34,10 @@ class App extends React.Component {
             <li>
               Nombre: {item.name}
               <p>Edad: {item.age}</p>
+              <p> {item.description}</p>
             </li>
           );
         })}
-        <HalfPage></HalfPage>
       </div>
     );
   }
