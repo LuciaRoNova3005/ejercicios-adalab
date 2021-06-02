@@ -1,10 +1,10 @@
-import '../stylesheets/App.css';
-import CatList from "../components/CatList";
+import "../stylesheets/App.css";
+import OnionHater from "./OnionHater";
 
 function App() {
   return (
     <div>
-     <CatList/>
+      <OnionHater />
     </div>
   );
 }
