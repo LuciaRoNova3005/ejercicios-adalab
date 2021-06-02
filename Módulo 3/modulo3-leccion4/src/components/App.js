@@ -1,10 +1,10 @@
 import "../stylesheets/App.css";
-import OnionHater from "./OnionHater";
+import Destiny from "./Destiny";
 
 function App() {
   return (
     <div>
-      <OnionHater />
+      <Destiny />
     </div>
   );
 }
