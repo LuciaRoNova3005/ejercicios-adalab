@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheets/App.css";
-class Exercice4 extends React.Component {
+class Exercice6 extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,8 +21,19 @@ class Exercice4 extends React.Component {
   }
 
   render() {
+    const sheeps = [];
+    for (let i = 0; i < this.state.counter; i++) {
+      sheeps.push(
+        <img
+          width="40px"
+          src="http://www.clker.com/cliparts/e/4/8/7/13280460782141411990Cartoon%20Sheep.svg.hi.png"
+          alt="sheep-cartoon"
+        />
+      );
+    }
     return (
       <div className="container">
+        <div>{sheeps}</div>
         <p>{this.state.counter}</p>
         <button onClick={this.handleClick}>Cuenta ovejas</button>
       </div>
@@ -30,4 +41,4 @@ class Exercice4 extends React.Component {
   }
 }
 
-export default Exercice4;
+export default Exercice6;
