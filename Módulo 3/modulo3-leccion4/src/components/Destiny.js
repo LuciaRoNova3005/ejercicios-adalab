@@ -1,9 +1,7 @@
 import React from "react";
 
 const Alert = (ev) => {
-  {
-    return alert("Tu destino es viajar a");
-  }
+  return alert("Tu destino es viajar a" + ev.target.value);
 };
 
 class Destiny extends React.Component {
