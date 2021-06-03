@@ -1,13 +1,9 @@
 import "../stylesheets/App.css";
 import Destiny from "./Destiny";
-import Exercice1 from "./Exercice1";
+import Exercice2 from "./Exercice2";
 
 function App() {
-  return (
-    <div className="text">
-      <Exercice1 />
-    </div>
-  );
+  return <Exercice2 />;
 }
 
 export default App;
