@@ -1,8 +1,8 @@
 import "../stylesheets/App.css";
-import Exercice1 from "./Exercice1";
+import Clublist from "./Clublist";
 
 function App() {
-  return <Exercice1 />;
+  return <Clublist />;
 }
 
 export default App;
