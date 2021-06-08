@@ -1,8 +1,26 @@
 import "../stylesheets/App.css";
-import Exercice1 from "./Exercice1";
+import Form from "./Form";
+import Card from "./Card";
+import { useState } from "react";
 
 function App() {
-  return <Exercice1 />;
+  const [forminput, setForminput] = useState({
+    name: "",
+    description: "",
+    idioma: "",
+  });
+  const handleInputData = (ev) => {
+    setForminput({
+      ...forminput,
+      [ev.target.name]: ev.target.value,
+    });
+  };
+  return (
+    <div>
+      <Form onKeyUp={handleInputData} />
+      <Card name={forminput.name} description={forminput.description} />;
+    </div>
+  );
 }
 
 export default App;

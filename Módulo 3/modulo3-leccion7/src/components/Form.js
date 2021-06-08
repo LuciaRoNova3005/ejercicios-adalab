@@ -1,15 +1,11 @@
-import { useState } from "react";
-
-function Exercice1(props) {
-  const [collapsable, setcollapsable] = useState("hidden");
-
+function Form(props) {
   return (
-    <form>
+    <form onKeyUp={props.onKeyUp}>
       <label htmlFor="name">Name:</label>
-      <input id="name" type="text" />
+      <input id="name" type="text" name="name" />
       <div className="container">
-        <textarea />
-        <select name="language">
+        <textarea id="description" type="text" name="description" />
+        <select id="language" name="language">
           <option>Selecciona el idioma</option>
           <option value="spanish">Español</option>
           <option value="ingles">Inglés</option>
@@ -20,4 +16,4 @@ function Exercice1(props) {
   );
 }
 
-export default Exercice1;
+export default Form;
