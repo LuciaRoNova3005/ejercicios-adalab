@@ -1,6 +1,6 @@
 function Form(props) {
   return (
-    <form onKeyUp={props.onKeyUp}>
+    <form onChange={props.onChange}>
       <label htmlFor="name">Name:</label>
       <input id="name" type="text" name="name" />
       <div className="container">

@@ -7,7 +7,7 @@ function App() {
   const [forminput, setForminput] = useState({
     name: "",
     description: "",
-    idioma: "",
+    language: "",
   });
   const handleInputData = (ev) => {
     setForminput({
@@ -17,8 +17,13 @@ function App() {
   };
   return (
     <div>
-      <Form onKeyUp={handleInputData} />
-      <Card name={forminput.name} description={forminput.description} />;
+      <Form onChange={handleInputData} />
+      <Card
+        name={forminput.name}
+        description={forminput.description}
+        language={forminput.language}
+      />
+      ;
     </div>
   );
 }
