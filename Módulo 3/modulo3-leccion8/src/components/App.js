@@ -1,6 +1,7 @@
 import "../stylesheets/App.css";
 import React from "react";
 import Api from "../Services/Api.js";
+import Exercice2 from "./Exercice2";
 
 class App extends React.Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class App extends React.Component {
 
   render() {
     return <ul>{this.renderPeople()}</ul>;
+    <Exercice2></Exercice2>;
   }
 }
 
