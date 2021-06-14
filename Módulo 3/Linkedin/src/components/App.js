@@ -1,5 +1,6 @@
 import "../stylesheets/App.css";
 import React, { useState, useEffect } from "react";
+import UserList from "./UserList";
 import getApiData from "../Services/Api";
 import ls from "../Services/local-storage";
 
@@ -28,10 +29,13 @@ const App = () => {
   }, [users]);
   /*Este Useeffect nos guarda en localsotrage cuando los usuarios cambian,se ejecuta cuando users cambia
    */
-
+  const filteredUsers = users;
   return (
     <>
-      <h1>Directorio de personas </h1>
+      <h1 className="title--big">Directorio de personas</h1>
+      <div className="col2">
+        <UserList users={filteredUsers} />
+      </div>
     </>
   );
 };
