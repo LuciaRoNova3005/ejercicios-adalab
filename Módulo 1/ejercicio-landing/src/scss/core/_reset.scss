@@ -7,7 +7,7 @@
         de esta hoja de estilos 🌳
 */
 :root {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-main;
   font-size: 14px;
   box-sizing: border-box;
 }
@@ -28,4 +28,7 @@ ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+a {
+  text-decoration: none;
 }

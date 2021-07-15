@@ -1,11 +1,15 @@
 .hero {
   background-image: url(../images/slider-home.jpg);
   background-size: cover;
+  background-position: center;
   display: flex;
-  height: 50vh;
+  height: 80vh;
 }
 .title {
   color: white;
   margin: auto;
-  text-transform: capitalize;
+  text-align: justify;
+  font-size: 42px;
+  text-align: center;
+  line-height: 60px;
 }
